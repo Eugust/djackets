@@ -26,7 +26,8 @@ SECRET_KEY = 'django-insecure-1^nlnl+%-h&eac3e7l_$^$4qy%hl=##mvxg)alqps=%5p&c-tw
 DEBUG = True
 
 ALLOWED_HOSTS = []
-
+# настроить свой stripe
+STRIPE_SECRET_KEY = 'sk_test_51HIHiuKBJV2qeWbD4IBpAODack7r7r9LJ0Y65zSFx7jUUwgy2nfKEgQGvorv1p2xp7tgMsJ5N9EW7K1lBdPnFnyK00kdrS27cj'
 
 # Application definition
 
@@ -44,6 +45,7 @@ INSTALLED_APPS = [
     'corsheaders',
 
     'product',
+    'order',
 ]
 
 CORS_ALLOWED_ORIGINS = [
