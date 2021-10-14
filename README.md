@@ -1,2 +1,2 @@
-# djackets
-## Internet shop 
+# Project Djackets
+## Internet shop (Vue.js and Django) 
